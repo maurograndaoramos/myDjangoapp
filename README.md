@@ -9,6 +9,7 @@ myDjangoapp (name pending rework) is a dynamic web application created for game 
 This application provides a user-friendly interface to generate randomized game elements such as weather conditions, NPC interactions, or plot twists by querying oracle tables. 
 
 **Planned additions:**
+
 - `Virtual 3D Dice Roller` to allow users to roll virtual dice within the app and retrieve results from the selected Oracle table, which are then displayed with interpretations that can be tailored or expanded based on the user’s preferences.
 
 - `Create "Characters" and "Sessions" page` that stores data in the app so the User can retrieve an historic of their dice rolls and Answers.
@@ -44,8 +45,10 @@ The project structure of `myDjangoapp` is as follows:
 - Poetry for Dependency Management: Utilizes Poetry to manage library dependencies, enhancing the security and consistency across developments.
 
 **Planned App Features:**
-    - `CLI for data management:` Either via native Django command line or using Click, to add "Questions" and "Answers" to the database of available Oracle tables
-    - `User authentication:` Allowing user access to stored "Characters" and "Sessions"
+
+- `CLI for data management:` Either via native Django command line or using Click, to add "Questions" and "Answers" to the database of available Oracle tables.
+
+- `User authentication:` Allows user access to stored "Characters" and "Sessions".
 
 ## Installation
 
