@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "djangoapp"
+version = "0.1.1a0"
+description = "A Django app created for learning purposes"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "../README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+click = "^8.1.7"
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
