@@ -1,5 +1,7 @@
 # myDjangoapp
 
+![alt text](https://github.com/maurograndaoramos/myDjangoapp/OracleDice.png?raw=true)
+
 myDjangoapp (name pending rework) is a dynamic web application created for game masters and solo role-players engaged in tabletop role-playing games (TTRPGs) - i.e.: Me. But hopefuly, also you! 
 
 This application provides a user-friendly interface to generate randomized game elements such as weather conditions, NPC interactions, or plot twists by querying oracle tables. 
