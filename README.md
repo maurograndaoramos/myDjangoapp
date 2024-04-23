@@ -9,7 +9,7 @@ myDjangoapp (name pending rework) is a dynamic web application created for game 
 This application provides a user-friendly interface to generate randomized game elements such as weather conditions, NPC interactions, or plot twists by querying oracle tables. 
 
 **Planned additions:**
-
+gi
 - `Virtual 3D Dice Roller` to allow users to roll virtual dice within the app and retrieve results from the selected Oracle table, which are then displayed with interpretations that can be tailored or expanded based on the user’s preferences.
 
 - `Create "Characters" and "Sessions" page` that stores data in the app so the User can retrieve an historic of their dice rolls and Answers.
@@ -61,13 +61,13 @@ git clone https://github.com/maurograndaoramos/myDjangoapp.git
 **2. Navigate to the project directory:**
 
 ```markdown
-cd myDjangoapp
+cd myDjangoapp/Project
 ```
 
 **3. Build the Docker container:**
 
 ```markdown
-docker-compose up --build
+docker compose up --build
 ```
 
 **4. Access the application by accessing the following URL:**
@@ -76,7 +76,9 @@ docker-compose up --build
 http://localhost:8000
 ```
 
-However, this project contains Poetry and is ready to be launched with Docker or using a Dev Container in VsCode. I highly recommend doing so to avoid installing anything directly on your machine.
+I used a Developer Container in VsCode and I highly recommend you do so to avoid installing any of the necessary dependencies directly on your machine.
+
+*If you use vim or nvim, I'm more than willing to bet you already know how to spin this up without using VsCode so no guides are necessary for you. Also, props.*
 
 [TO BE ADDED]
 

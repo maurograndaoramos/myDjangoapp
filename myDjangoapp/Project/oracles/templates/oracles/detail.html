@@ -1,8 +1,0 @@
-<h1>{{ question.question_text }}</h1>
-{% csrf_token %}
-<ol class="numbered-list">
-{% for choice in question.choices.all %}
-    <li class="list-item"><label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label></li>
-{% endfor %}
-</ol>
-</form>
