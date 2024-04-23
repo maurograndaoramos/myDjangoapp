@@ -1,6 +1,8 @@
-# myDjangoapp
+<p align="center">
+    <img src="./OracleDice.png" alt="alt text">
+</p>
 
-![alt text](./OracleDice.png)
+# myDjangoapp
 
 myDjangoapp (name pending rework) is a dynamic web application created for game masters and solo role-players engaged in tabletop role-playing games (TTRPGs) - i.e.: Me. But hopefuly, also you! 
 
