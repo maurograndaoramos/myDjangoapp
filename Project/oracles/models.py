@@ -1,6 +1,4 @@
 from django.db import models
-import random
-from django.urls import path
 
 class OracleQuestion(models.Model):
     question_text = models.CharField(max_length=200)
@@ -13,8 +11,7 @@ class OracleQuestion(models.Model):
 class OracleAnswer(models.Model):
     oracle = models.ForeignKey(OracleQuestion, on_delete=models.CASCADE, related_name='choices')
     choice_text = models.CharField(max_length=200)
-    roll_value = models.IntegerField(default=1)
+    roll_value = models.IntegerField(default=0)
 
     def __str__(self) -> str:
         return self.choice_text
-    

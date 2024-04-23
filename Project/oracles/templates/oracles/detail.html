@@ -1,8 +1,7 @@
 <h1>{{ question.question_text }}</h1>
-{% csrf_token %}
-<ol class="numbered-list">
+<ul>
 {% for choice in question.choices.all %}
-    <li class="list-item"><label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label></li>
+    <li>{{ choice.choice_text }}</li>
 {% endfor %}
-</ol>
-</form>
+</ul>
+<a href="{% url 'oracles:index' %}">Back to index</a>

@@ -1,0 +1,18 @@
+[
+    {
+        "question": "string",
+        "oracle_answers": 
+            [
+                {"answer": "string", "roll_value": 1},
+                {"answer": "string", "roll_value": 2},
+                {"answer": "string", "roll_value": 3},
+                {"answer": "string", "roll_value": 4},
+                {"answer": "string", "roll_value": 5},
+                {"answer": "string", "roll_value": 6},
+                {"answer": "string", "roll_value": 7},
+                {"answer": "string", "roll_value": 8}
+            ],
+        "category": "Architecture",
+        "description": "string"
+    }
+]
