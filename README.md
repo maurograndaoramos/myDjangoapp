@@ -1,5 +1,5 @@
-<p align="center">
-    <img src="./OracleDice.png" alt="alt text">
+<p align="center"> 
+<img src="./OracleDice.png" alt="All Eyes on You">
 </p>
 
 # myDjangoapp
@@ -41,16 +41,16 @@ The project structure of `myDjangoapp` is as follows:
 
 - Poetry for Dependency Management: Utilizes Poetry to manage library dependencies, enhancing the security and consistency across developments.
 
-**- Planned App Features:**
-    1. **CLI for data management:** Either via native Django command line or using Click, to add "Questions" and "Answers" to the database of available Oracle tables
-    2. **User authentication:** Allowing access user "Characters" and "Sessions"
+**Planned App Features:**
+1. **CLI for data management:** Either via native Django command line or using Click, to add "Questions" and "Answers" to the database of available Oracle tables
+2. **User authentication:** Allowing access user "Characters" and "Sessions"
 
 ## Installation
 
 **1. Clone the repository:**
 
 ```markdown
-git clone [repository-url]
+git clone https://github.com/maurograndaoramos/myDjangoapp.git
 ```
 
 **2. Navigate to the project directory:**
@@ -73,15 +73,15 @@ http://localhost:8000
 
 However, this project contains Poetry and is ready to be launched with Docker or using a Dev Container in VsCode. I highly recommend doing so to avoid installing anything directly on your machine.
 
-
+[TO BE ADDED]
 
 ## Usage
 
-To be Worked On when I stop being preguiçoso
+[TO BE ADDED when I stop being preguiçoso]
 
 ## Contributing
 
-Contributions to this project are more than welcome! Please fork the repository and submit a pull request with your features or fixes.
+Contributions to this project are more than welcome! Please fork the repository and submit a pull request with your features or fixes. Or you could add more tables and adapt to your own game. Go wild, friend!
 
 ## License
 
