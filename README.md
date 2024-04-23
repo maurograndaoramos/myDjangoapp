@@ -9,9 +9,11 @@ myDjangoapp (name pending rework) is a dynamic web application created for game 
 This application provides a user-friendly interface to generate randomized game elements such as weather conditions, NPC interactions, or plot twists by querying oracle tables. 
 
 **Planned additions:**
-- Allow users to roll roll virtual dice within the app to retrieve results, which are then displayed with interpretations that can be tailored or expanded based on the user’s preferences.
+- `Virtual 3D Dice Roller` to allow users to roll virtual dice within the app and retrieve results from the selected Oracle table, which are then displayed with interpretations that can be tailored or expanded based on the user’s preferences.
 
-- Also allow users to create "Sessions" and "Characters" and store them in the app so that they can retrieve an historic of their dice rolls, allowing the user to compose a wider picture of where and how they got where they are.
+- `Create "Characters" and "Sessions" page` that stores data in the app so the User can retrieve an historic of their dice rolls and Answers.
+
+- `AI wrapper` that provides interpretations of dice rolls directly in the dice roller, using either the Llama 3 or tinyllama model.
 
 ## Table of Contents
 
@@ -31,9 +33,9 @@ The project structure of `myDjangoapp` is as follows:
 - `.github`: Holds the configuration files for GitHub actions and Dependabot for automation and dependency updates.
 
 - `Project`: The main directory for the Django project which includes:
-    1. `Dockerfile` and `docker-compose.yaml`: For building and running the Django application in Docker containers.
-    2. `simpleGMe`: The Django project settings and core files including URLs, ASGI/WSGI configurations.
-    3. `oracles`: A Django app within this project that handles specific backend logic, models, views, and URLs.
+    - `Dockerfile` and `docker-compose.yaml`: For building and running the Django application in Docker containers.
+    - `simpleGMe`: The Django project settings and core files including URLs, ASGI/WSGI configurations.
+    - `oracles`: A Django app within this project that handles specific backend logic, models, views, and URLs.
 
 ## Key App Features
 
@@ -42,8 +44,8 @@ The project structure of `myDjangoapp` is as follows:
 - Poetry for Dependency Management: Utilizes Poetry to manage library dependencies, enhancing the security and consistency across developments.
 
 **Planned App Features:**
-1. **CLI for data management:** Either via native Django command line or using Click, to add "Questions" and "Answers" to the database of available Oracle tables
-2. **User authentication:** Allowing access user "Characters" and "Sessions"
+    - `CLI for data management:` Either via native Django command line or using Click, to add "Questions" and "Answers" to the database of available Oracle tables
+    - `User authentication:` Allowing user access to stored "Characters" and "Sessions"
 
 ## Installation
 
