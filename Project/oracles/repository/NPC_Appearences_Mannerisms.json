@@ -1,0 +1,126 @@
+[
+    {
+        "question": "What is their general physical build?",
+        "oracle_answers": 
+            [
+                {"answer": "Unusually short or slender", "roll_value": 1},
+                {"answer": "Unremarkably average", "roll_value": 2},
+                {"answer": "Plump, voluptuous, or soft", "roll_value": 3},
+                {"answer": "Bulky, built, or more massive than usual", "roll_value": 4},
+                {"answer": "Lean, wiry, or sinewy", "roll_value": 5},
+                {"answer": "Tall or lanky", "roll_value": 6},
+                {"answer": "Hunched, stooped, or otherwise deformed", "roll_value": 7},
+                {"answer": "Athletic or muscular", "roll_value": 8}
+            ],
+        "category": "NPCs - Appearances and Mannerisms",
+        "description": "To make your NPC memorable, consider giving them a distinct physical build. This can range from being unusually short to unusually muscular, and it's a quick visual hook that will make your NPC stand out in your players' minds. Use this attribute to hint at their background, profession, or any special traits they might possess.",
+        "die": "d8"
+    },
+    {
+        "question": "How do they move?",
+        "oracle_answers": 
+            [
+                {"answer": "Hesitant, fluttery, or delicately precise", "roll_value": 1},
+                {"answer": "Clumsy, with broad, careless motions", "roll_value": 2},
+                {"answer": "Slow and measured actions", "roll_value": 3},
+                {"answer": "Sharp, brisk, vigorous movements", "roll_value": 4},
+                {"answer": "Laborious or weary motions", "roll_value": 5},
+                {"answer": "Smooth, relaxed, efficient movement", "roll_value": 6},
+                {"answer": "Jittery, nervous, or fidgety", "roll_value": 7},
+                {"answer": "Graceful, elegant, or fluid", "roll_value": 8},
+                {"answer": "Stiff, rigid, or mechanical", "roll_value": 9},
+                {"answer": "Languid, lazy, or slow", "roll_value": 10},
+                {"answer": "Erratic, unpredictable, or jerky", "roll_value": 11},
+                {"answer": "Swift, darting, or sudden", "roll_value": 12}
+            ],
+        "category": "NPCs - Appearances and Mannerisms",
+        "description": "An NPC's movements can say a lot about their personality or current state of mind. Whether they glide gracefully or shuffle along wearily, these movements can provide clues to their character and make them more vivid in your players' imaginations. Choose a style of movement that complements their backstory or current motivations.",
+        "die": "d12"
+    },
+    {
+        "question": "In what way do they differ from expectations?",
+        "oracle_answers": 
+            [
+                {"answer": "Unusual skin coloration or texture", "roll_value": 1},
+                {"answer": "From a group not normally found here", "roll_value": 2},
+                {"answer": "Much older or younger than expected", "roll_value": 3},
+                {"answer": "Abnormal temperament for their trade", "roll_value": 4},
+                {"answer": "Overt devotee of an uncommon faith here", "roll_value": 5},
+                {"answer": "A pet animal not normally found here", "roll_value": 6},
+                {"answer": "They eat a cuisine that is not liked here", "roll_value": 7},
+                {"answer": "Abnormal hair texture or hue", "roll_value": 8},
+                {"answer": "They wear unusual tattoos or body jewelry", "roll_value": 9},
+                {"answer": "They're uncommonly socially awkward", "roll_value": 10},
+                {"answer": "A physical build abnormal for the area", "roll_value": 11},
+                {"answer": "A distinct mutation or body alternation", "roll_value": 12}
+            ],
+        "category": "NPCs - Appearances and Mannerisms",
+        "description": "Surprise your players by introducing an NPC who defies their expectations in one key way. This could be something as subtle as an unusual accent or as noticeable as a distinct mutation. This unexpected trait can spark curiosity and lead to memorable interactions.",
+        "die": "d12"
+    },
+    {
+        "question": "What idiosyncrasies are present in their clothing?",
+        "oracle_answers": 
+            [
+                {"answer": "A fondness for very bright or dull colors", "roll_value": 1},
+                {"answer": "Emblem of a faith or social group", "roll_value": 2},
+                {"answer": "Ill-kept, whether worn, dirty, or rumpled", "roll_value": 3},
+                {"answer": "Wears another group's style of clothing", "roll_value": 4},
+                {"answer": "Abnormally risqué or modest for the society", "roll_value": 5},
+                {"answer": "Shows regular dirt and marks of their trade", "roll_value": 6},
+                {"answer": "Fastidiously neat or tastefully adorned", "roll_value": 7},
+                {"answer": "Wears a very noticeable piece of jewelry", "roll_value": 8}
+            ],
+        "category": "NPCs - Appearances and Mannerisms",
+        "description": "Clothes often make the first impression. An NPC's choice of attire can reflect their status, profession, or personality. Whether their clothes are immaculately tailored or conspicuously worn, each detail can help tell their story and set the stage for their interactions with the players.",
+        "die": "d8"
+    },
+    {
+        "question": "What is the first thing you notice about them?",
+        "oracle_answers": 
+            [
+                {"answer": "Their voice is unusual and arresting", "roll_value": 1},
+                {"answer": "They're disfigured or missing a limb", "roll_value": 2},
+                {"answer": "They have a distinctive scent or stench", "roll_value": 3},
+                {"answer": "Their clothing is very unusual", "roll_value": 4},
+                {"answer": "They have distinct mannerisms of gesture", "roll_value": 5},
+                {"answer": "Their accent is unusual for the location", "roll_value": 6},
+                {"answer": "They're abnormally friendly or reserved", "roll_value": 7},
+                {"answer": "They have signs of a chronic illness or wound", "roll_value": 8},
+                {"answer": "They have an unusual hair style or texture", "roll_value": 9},
+                {"answer": "They are very fat, thin, short, tall or such", "roll_value": 10}  
+            ],
+        "category": "NPCs - Appearances and Mannerisms",
+        "description": "What is the first thing that catches a player's eye about this NPC? Is it a striking physical feature, an unusual accessory, or perhaps a peculiar scent? This immediate impression can set the tone for how players perceive and interact with the NPC, paving the way for richer, more engaged storytelling.",
+        "die": "d10"
+    },
+    {
+        "question": "What visible mannerisms or traits do they exhibit?",
+        "oracle_answers": 
+            [
+                {"answer": "An often-used catchphrase or verbal tic", "roll_value": 1},
+                {"answer": "Always drinking or near a drink", "roll_value": 2},
+                {"answer": "Hands never stop moving", "roll_value": 3},
+                {"answer": "Talks very slowly and deliberately", "roll_value": 4},
+                {"answer": "Tends to shift their weight constantly", "roll_value": 5},
+                {"answer": "Has an unusual hairstyle or beard", "roll_value": 6},
+                {"answer": "Appears often to be slightly drugged or drunk", "roll_value": 7},
+                {"answer": "Prefers to always be in shade if possible", "roll_value": 8},
+                {"answer": "Has a very distinctive laugh", "roll_value": 9},
+                {"answer": "Never looks you in the eye when lying", "roll_value": 10},
+                {"answer": "Visibly avaricious for gold, food, or such else", "roll_value": 11},
+                {"answer": "Always circuitous about answering questions", "roll_value": 12},
+                {"answer": "Never directly denies or refuses anything", "roll_value": 13},
+                {"answer": "Paces constantly; always prefers to stand", "roll_value": 14},
+                {"answer": "Has work-stained or scarred hands", "roll_value": 15},
+                {"answer": "Old pox marks or disease scars are present", "roll_value": 16},
+                {"answer": "Prefers elaborate hats, belts, or adornments", "roll_value": 17},
+                {"answer": "Always toying with worry beads or such", "roll_value": 18},
+                {"answer": "Knocks things over carelessly", "roll_value": 19},
+                {"answer": "Has a very distinctive taste in entertainment", "roll_value": 20}
+            ],
+        "category": "NPCs - Appearances and Mannerisms",
+        "description": "Mannerisms or physical traits can dramatically enhance an NPC's memorability. Whether it's a constant nervous twitch or an elaborate hat that seems out of place, these characteristics can intrigue players and invite further exploration of the NPC's background and motives.",
+        "die": "d20"
+    }
+]

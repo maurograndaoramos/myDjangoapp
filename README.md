@@ -1,7 +1,6 @@
 <p align="center"> 
 <img src="./OracleDice.png" alt="All Eyes on You">
 </p>
-<p align="center" ><em>ooo~ spooky logo</em></p>
 </p>
 
 # SimpleGMe
@@ -20,56 +19,51 @@ This application provides a user-friendly interface to generate randomized game 
 
 ## Table of Contents
 
-- [Project Structure](#project-structure)
-- [Key App Features](#key-features)
-- [Installation](#installation)
 - [Usage](#usage)
+- [Installation](#installation)
+- [Key App Features](#key-features)
+- [Project Structure](#project-structure)
 - [Known Issues](#known-issues)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Project Structure
+## Usage
 
-Django was the obvious choice for this app due to its plug-and-play, 'batteries-included' nature. 
-The most important Django features I required were the following:
+Let's Get Rolling! 🎲
 
+**Step 1: Choose Your Adventure**
 
-    Built-in Admin Interface: Quickly set up and manage oracle tables without building an admin section from scratch.
-    Scalable: Can handle small to very large numbers of users with minimal changes to the project structure.
+First things first, grab some dice and pick a tabletop RPG (TTRPG) system. Whether you're flying solo or guiding a group, the first step is all about setting the stage.
 
-The project structure of `simpleGMe` is as follows:
+**Step 2: Set Up Your Characters**
 
-- `Project`: The main directory for the Django project which includes:
-    - `Dockerfile` and `docker-compose.yaml`: For building and running the Django application in Docker containers.
-    - `simpleGMe Directory`: Houses the core settings and configuration for the Django project.
-        - `settings.py`: Contains all configurations related to the project like database configurations, secret keys, and Django apps configuration.
-        - `urls.py`: Manages the URL declarations for the Django project. This is essentially the “table of contents” of your Django-powered site.
-        - `wsgi.py/asgi.py`: Entry-points for WSGI-compatible servers to serve your project.
-        - `templates/simpleGMe`: Includes HTML templates for the main landing page of the application.
-        - `static/simpleGMe/css`: Contains CSS stylesheets that define the look and feel of the project’s landing page.
-    - `oracles Directory`: A Django app within the project that handles specific backend logic.
-        - `models.py, views.py, forms.py, admin.py`: These files define the data models, the business logic, the form representations, and the admin customization, respectively.
-        - `urls.py`: Routes requests to the appropriate view based on the request URL.
-        - `migrations`: Contains schema migrations for evolving the database structure over time without data loss.
-        - `templates/oracles`: Stores HTML files for rendering data views specific to the oracles app functionality.
-        - `static/oracles/css`: Contains CSS stylesheets specific to the oracles app.
-        - `management/commands`: Custom management commands that can be used with Django’s command-line utility for administrative tasks.
-        - `repository`: Includes JSON files defining data templates and architecture specifics for the app.
+Once your character, or your players' characters, are ready to go, it's time to dive into the action.
 
-## Key App Features
+**Step 3: Consult the Oracle**
 
-- `Docker Integration`: Simplifies deployment and development environment setup.
+Curious about what comes next? Check out the Oracle tables. Here’s how you can navigate:
 
-- `Poetry for Dependency Management`: Utilizes Poetry to manage library dependencies, enhancing the security and consistency across developments.
+    Question Index: Browse through a complete list of possible scenarios.
 
-- [ NEW ] `Django CLI for data importing`: It adds both "Questions" and "Answers" to the database of available Oracle tables. Use the template .json file to build your data set (you can find it in Project/oracles/repository/standardTemplate. Just copy it into the directory above and apply changes) and import using:
-```markdown
-python manage.py import_question
-```
+    Category Index: Search by theme to find the perfect starting point for your story.
 
-**Planned App Features:**
+**Step 4: Get Specific**
 
-- `User authentication`: Allows user access to stored "Characters" and "Sessions".
+Found your question? Great! Head over to its specific page to see the details, including which dice to roll.
+
+**Step 5: Roll the Dice**
+
+Now the fun part—roll the dice and see what fate has in store for you. The number it lands on? That’s your cue from the table.
+
+**Step 6: Let Your Imagination Lead**
+
+Think about how the result fits into your current situation. What could it mean? Why might this happen? This is your chance to let your creativity shine.
+
+**Why Play Like This?**
+
+Playing TTRPGs taps into a fundamental human trait—constantly asking "what if" and "why," much like how language models operate. You get data, interpret it, and then run with it. It's not just a game; it's a brain workout. Added bonus, it's really fun!
+
+So, go ahead—roll the dice, craft your story, and enjoy the adventure. It's all yours to explore and it’s entirely free. Have fun, my adventurous friend!
 
 ## Installation
 
@@ -101,41 +95,51 @@ I used a Developer Container in VsCode and I highly recommend you do so too (or 
 
 *If you use vim or nvim, I'm more than willing to bet you already know how to spin this up without using VsCode so no guides should be necessary for you. Also, props.*
 
-## Usage
+## Key App Features
 
-Let's Get Rolling!
+- `Docker Integration`: Simplifies deployment and development environment setup.
 
-Step 1: Choose Your Adventure
-First things first, grab some dice and pick a tabletop RPG (TTRPG) system. Whether you're flying solo or guiding a group, the first step is all about setting the stage.
+- `Poetry for Dependency Management`: Utilizes Poetry to manage library dependencies, enhancing the security and consistency across developments.
 
-Step 2: Set Up Your Characters
-Once your character, or your players' characters, are ready to go, it's time to dive into the action.
+- `Django CLI for data importing` [ NEW ]: It adds both "Questions" and "Answers" to the database of available Oracle tables. Use the template .json file to build your data set (you can find it in Project/oracles/repository/standardTemplate. Just copy it into the directory above and apply changes) and import using:
+```markdown
+python manage.py import_question
+```
 
-Step 3: Consult the Oracle
-Curious about what comes next? Check out the Oracle tables. Here’s how you can navigate:
+**Planned App Features:**
 
-    Question Index: Browse through a complete list of possible scenarios.
-    
-    Category Index: Search by theme to find the perfect starting point for your story.
+- `User authentication`: Allows user access to stored "Characters" and "Sessions".
 
-Step 4: Get Specific
-Found your question? Great! Head over to its specific page to see the details, including which dice to roll.
+## Project Structure
 
-Step 5: Roll the Dice
-Now the fun part—roll the dice and see what fate has in store for you. The number it lands on? That’s your cue from the table.
+Django was the obvious choice for this app due to its plug-and-play, 'batteries-included' nature. 
+The most important Django features I required were the following:
 
-Step 6: Let Your Imagination Lead
-Think about how the result fits into your current situation. What could it mean? Why might this happen? This is your chance to let your creativity shine.
+- **Built-in Admin Interface:** Quickly set up and manage oracle tables without building an admin section from scratch.
+- **Scalable:** Can handle small to very large numbers of users with minimal changes to the project structure.
 
-Why Play Like This?
+The project structure of `simpleGMe` is as follows:
 
-Playing TTRPGs taps into a fundamental human trait—constantly asking "what if" and "why," much like how language models operate. You get data, interpret it, and then run with it. It's not just a game; it's a brain workout. Added bonus, it's really fun!
-
-So, go ahead—roll the dice, craft your story, and enjoy the adventure. It's all yours to explore and it’s entirely free. Have fun, my adventurous friend!
+- `Project`: The main directory for the Django project which includes:
+    - `Dockerfile` and `docker-compose.yaml`: For building and running the Django application in Docker containers.
+    - `simpleGMe Directory`: Houses the core settings and configuration for the Django project.
+        - `settings.py`: Contains all configurations related to the project like database configurations, secret keys, and Django apps configuration.
+        - `urls.py`: Manages the URL declarations for the Django project. This is essentially the “table of contents”.
+        - `templates/simpleGMe`: Includes HTML templates for the main landing page of the application.
+        - `static/simpleGMe/css`: Contains CSS stylesheets that define the look and feel of the project’s landing page.
+    - `oracles Directory`: A Django app within the project that handles specific backend logic.
+        - `models.py, views.py, forms.py, admin.py`: These files define the data models, the business logic, the form representations, and the admin customization, respectively.
+        - `urls.py`: Routes requests to the appropriate view based on the request URL.
+        - `migrations`: Contains schema migrations for evolving the database structure over time without data loss.
+        - `templates/oracles`: Stores HTML files for rendering data views specific to the oracles app functionality.
+        - `static/oracles/css`: Contains CSS stylesheets specific to the oracles app.
+        - `management/commands`: Custom management commands that can be used with Django’s command-line utility for administrative tasks.
+        - `repository`: Includes JSON files defining data templates and architecture specifics for the app.
 
 ## Known Issues
 
-- While there is an action inside the Admin Oracle Questions view that would allow the user to mass edit the Category field, it currently is not working. PRIORITY LEVEL: LOW
+
+LOW PRIORITY: While there is an action inside the Admin Oracle Questions view that would allow the user to mass edit the Category field, it currently is not working.
 
 ## Contributing
 
