@@ -30,15 +30,12 @@ This application provides a user-friendly interface to generate randomized game 
 
 ## Project Structure
 
-Django is an excellent choice for creating a web application for rolling on oracle tables in solo TTRPGs due to its robustness, scalability, and rapid development capabilities. Here’s why:
+Django was the obvious choice for this app due to its plug-and-play, 'batteries-included' nature. 
+The most important Django features I required were the following:
+
 
     Built-in Admin Interface: Quickly set up and manage oracle tables without building an admin section from scratch.
-    ORM (Object-Relational Mapping): Simplifies database interactions, ideal for handling dynamic oracle tables and game data.
-    High Security: Offers built-in protections against common vulnerabilities, ensuring safe user interactions.
-    Extensive Libraries: Plenty of third-party libraries to add functionalities like session management, API interactions, and more.
     Scalable: Can handle small to very large numbers of users with minimal changes to the project structure.
-
-Django’s “batteries-included” approach allows you to focus more on developing game mechanics rather than the technicalities of web app development.
 
 The project structure of `simpleGMe` is as follows:
 
@@ -118,6 +115,7 @@ Step 3: Consult the Oracle
 Curious about what comes next? Check out the Oracle tables. Here’s how you can navigate:
 
     Question Index: Browse through a complete list of possible scenarios.
+    
     Category Index: Search by theme to find the perfect starting point for your story.
 
 Step 4: Get Specific
