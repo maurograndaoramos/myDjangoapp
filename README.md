@@ -1,5 +1,6 @@
 <p align="center"> 
 <img src="./OracleDice.png" alt="All Eyes on You">
+*ooo~ spooky logo*
 </p>
 
 # SimpleGMe
@@ -28,7 +29,17 @@ This application provides a user-friendly interface to generate randomized game 
 
 ## Project Structure
 
-The project structure of `myDjangoapp` is as follows:
+Django is an excellent choice for creating a web application for rolling on oracle tables in solo TTRPGs due to its robustness, scalability, and rapid development capabilities. Here’s why:
+
+    Built-in Admin Interface: Quickly set up and manage oracle tables without building an admin section from scratch.
+    ORM (Object-Relational Mapping): Simplifies database interactions, ideal for handling dynamic oracle tables and game data.
+    High Security: Offers built-in protections against common vulnerabilities, ensuring safe user interactions.
+    Extensive Libraries: Plenty of third-party libraries to add functionalities like session management, API interactions, and more.
+    Scalable: Can handle small to very large numbers of users with minimal changes to the project structure.
+
+Django’s “batteries-included” approach allows you to focus more on developing game mechanics rather than the technicalities of web app development.
+
+The project structure of `simpleGMe` is as follows:
 
 - `Project`: The main directory for the Django project which includes:
     - `Dockerfile` and `docker-compose.yaml`: For building and running the Django application in Docker containers.
@@ -55,7 +66,7 @@ The project structure of `myDjangoapp` is as follows:
 
 - [ NEW ] `Django CLI for data importing`: It adds both "Questions" and "Answers" to the database of available Oracle tables. Use the template .json file to build your data set (you can find it in Project/oracles/repository/standardTemplate. Just copy it into the directory above and apply changes) and import using:
 ```markdown
-python manage.py import_question`
+python manage.py import_question
 ```
 
 **Planned App Features:**
@@ -94,7 +105,6 @@ I used a Developer Container in VsCode and I highly recommend you do so too (or 
 
 ## Usage
 
-How to Play Any Tabletop RPG Solo or as a GM
 Let's Get Rolling!
 
 Step 1: Choose Your Adventure
@@ -117,9 +127,10 @@ Now the fun part—roll the dice and see what fate has in store for you. The num
 
 Step 6: Let Your Imagination Lead
 Think about how the result fits into your current situation. What could it mean? Why might this happen? This is your chance to let your creativity shine.
+
 Why Play Like This?
 
-Playing TTRPGs taps into a fundamental human trait—constantly asking "what if" and "why," much like how language models (like me!) operate. You get data, interpret it, and then run with it. It's not just a game; it's a brain workout.
+Playing TTRPGs taps into a fundamental human trait—constantly asking "what if" and "why," much like how language models operate. You get data, interpret it, and then run with it. It's not just a game; it's a brain workout. Added bonus, it's really fun!
 
 So, go ahead—roll the dice, craft your story, and enjoy the adventure. It's all yours to explore and it’s entirely free. Have fun, my adventurous friend!
 
