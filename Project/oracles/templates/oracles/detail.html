@@ -1,10 +1,13 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'simpleGMe/css/styles.css' %}">
+
 <h1>{{ question.question_text }}</h1>
 <ul>Roll a {{ question.die }} or pick a result:
 {% for choice in question.choices.all %}
 <li>{{ choice.roll_value }} - {{ choice.choice_text }}</li>
 {% endfor %}
 </ul>
-<a href="{% url 'oracles:index' %}">Back to index</a>
+<a href="{% url 'oracles:index' %}">Back to Question Index</a>
 <a href="{% url 'oracles:indexCategory' %}">Back to Category Index</a>
-<a href="{% url 'oracles:category' question.category %}">Back to Category</a>
+<a href="{% url 'oracles:category' question.category %}">Back to this Question's Category</a>
 <a href="/">Back to Home</a>

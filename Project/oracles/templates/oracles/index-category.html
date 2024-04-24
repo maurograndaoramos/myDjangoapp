@@ -1,8 +1,11 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'simpleGMe/css/styles.css' %}">
+
 <h1>Oracle Category Index</h1>
 <ul>
 {% for category in categories %}
     <li><a href="{% url 'oracles:category' category.category %}">{{ category.category }}</a></li>
 {% endfor %}
 </ul>
-<a href="{% url 'oracles:index' %}">Back to index</a>
+<a href="{% url 'oracles:index' %}">View the Question Index</a>
 <a href="/">Back to Home</a>

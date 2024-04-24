@@ -1,3 +1,6 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'simpleGMe/css/styles.css' %}">
+
 <h1>Questions in category: {{ category }}</h1>
 <ul>
 {% for question in questions %}
