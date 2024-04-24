@@ -1,9 +1,7 @@
 <h1>Questions in category: {{ category }}</h1>
 <ul>
-{% for question in question_list %}
-    {% if question.category == category %}
-        <li><a href="{% url 'oracles:detail' question.id %}">{{ question.question_text }}</a></li>
-    {% endif %}
+{% for question in questions %}
+    <li><a href="{% url 'oracles:detail' question.id %}">{{ question.question_text }}</a></li>
 {% endfor %}
 </ul>
 <a href="{% url 'oracles:index' %}">Back to index</a>

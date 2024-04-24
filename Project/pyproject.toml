@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "djangoapp"
-version = "0.2.0"
+version = "0.3.0"
 description = "A Django app created for learning purposes"
 authors = ["Your Name <you@example.com>"]
 license = "MIT"

@@ -1,0 +1,6 @@
+<h1>Oracle Category Index</h1>
+<ul>
+{% for category in categories %}
+    <li><a href="{% url 'oracles:category' category.category %}">{{ category.category }}</a></li>
+{% endfor %}
+</ul>
