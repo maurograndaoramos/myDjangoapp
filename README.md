@@ -32,17 +32,13 @@ The project structure of `myDjangoapp` is as follows:
 
 - `Project`: The main directory for the Django project which includes:
     - `Dockerfile` and `docker-compose.yaml`: For building and running the Django application in Docker containers.
-     The Django project settings and core files including URLs, ASGI/WSGI configurations.
-    - `: A Django app within this project that handles specific backend logic, models, views, and URLs.
-
     - `simpleGMe Directory`: Houses the core settings and configuration for the Django project.
         - `settings.py`: Contains all configurations related to the project like database configurations, secret keys, and Django apps configuration.
         - `urls.py`: Manages the URL declarations for the Django project. This is essentially the “table of contents” of your Django-powered site.
         - `wsgi.py/asgi.py`: Entry-points for WSGI-compatible servers to serve your project.
         - `templates/simpleGMe`: Includes HTML templates for the main landing page of the application.
         - `static/simpleGMe/css`: Contains CSS stylesheets that define the look and feel of the project’s landing page.
-
-    `oracles Directory`: A Django app within the project that handles specific backend logic.
+    - `oracles Directory`: A Django app within the project that handles specific backend logic.
         - `models.py, views.py, forms.py, admin.py`: These files define the data models, the business logic, the form representations, and the admin customization, respectively.
         - `urls.py`: Routes requests to the appropriate view based on the request URL.
         - `migrations`: Contains schema migrations for evolving the database structure over time without data loss.
