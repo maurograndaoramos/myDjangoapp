@@ -22,16 +22,13 @@ This application provides a user-friendly interface to generate randomized game 
 - [Key App Features](#key-features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Known Issues](#known-issues)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Project Structure
 
 The project structure of `myDjangoapp` is as follows:
-
-- `.devcontainer`: Contains the configuration for the Development Container that allows the development environment to be replicated on any machine using Docker.
-
-- `.github`: Holds the configuration files for GitHub actions and Dependabot for automation and dependency updates.
 
 - `Project`: The main directory for the Django project which includes:
     - `Dockerfile` and `docker-compose.yaml`: For building and running the Django application in Docker containers.
@@ -85,6 +82,12 @@ I used a Developer Container in VsCode and I highly recommend you do so to avoid
 ## Usage
 
 [TO BE ADDED when I stop being preguiçoso]
+
+## Known Issues
+
+- While there is an action inside the Admin Oracle Questions view that would allow the user to mass edit the Category field, it currently is not working. PRIORITY LEVEL: LOW
+
+- The Import Question CLI is currently not updating the Category field despite the information available within the .json file data. PRIORITY LEVEL: Medium
 
 ## Contributing
 
