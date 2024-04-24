@@ -53,7 +53,10 @@ The project structure of `myDjangoapp` is as follows:
 
 - `Poetry for Dependency Management`: Utilizes Poetry to manage library dependencies, enhancing the security and consistency across developments.
 
-- [ NEW ] `Django CLI for data importing`: It adds both "Questions" and "Answers" to the database of available Oracle tables. Use the template .json file to build your data set (you can find it in Project/oracles/repository/standardTemplate. Just copy it into the directory above and apply changes) and import using `python manage.py import_question`
+- [ NEW ] `Django CLI for data importing`: It adds both "Questions" and "Answers" to the database of available Oracle tables. Use the template .json file to build your data set (you can find it in Project/oracles/repository/standardTemplate. Just copy it into the directory above and apply changes) and import using:
+```markdown
+python manage.py import_question`
+```
 
 **Planned App Features:**
 
@@ -91,6 +94,34 @@ I used a Developer Container in VsCode and I highly recommend you do so too (or 
 
 ## Usage
 
+How to Play Any Tabletop RPG Solo or as a GM
+Let's Get Rolling!
+
+Step 1: Choose Your Adventure
+First things first, grab some dice and pick a tabletop RPG (TTRPG) system. Whether you're flying solo or guiding a group, the first step is all about setting the stage.
+
+Step 2: Set Up Your Characters
+Once your character, or your players' characters, are ready to go, it's time to dive into the action.
+
+Step 3: Consult the Oracle
+Curious about what comes next? Check out the Oracle tables. Here’s how you can navigate:
+
+    Question Index: Browse through a complete list of possible scenarios.
+    Category Index: Search by theme to find the perfect starting point for your story.
+
+Step 4: Get Specific
+Found your question? Great! Head over to its specific page to see the details, including which dice to roll.
+
+Step 5: Roll the Dice
+Now the fun part—roll the dice and see what fate has in store for you. The number it lands on? That’s your cue from the table.
+
+Step 6: Let Your Imagination Lead
+Think about how the result fits into your current situation. What could it mean? Why might this happen? This is your chance to let your creativity shine.
+Why Play Like This?
+
+Playing TTRPGs taps into a fundamental human trait—constantly asking "what if" and "why," much like how language models (like me!) operate. You get data, interpret it, and then run with it. It's not just a game; it's a brain workout.
+
+So, go ahead—roll the dice, craft your story, and enjoy the adventure. It's all yours to explore and it’s entirely free. Have fun, my adventurous friend!
 
 ## Known Issues
 
