@@ -1,6 +1,7 @@
 <p align="center"> 
 <img src="./OracleDice.png" alt="All Eyes on You">
-*ooo~ spooky logo*
+</p>
+<p align="center"> *ooo~ spooky logo* 
 </p>
 
 # SimpleGMe
