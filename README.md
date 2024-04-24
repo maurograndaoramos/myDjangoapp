@@ -32,34 +32,32 @@ The project structure of `myDjangoapp` is as follows:
 
 - `Project`: The main directory for the Django project which includes:
     - `Dockerfile` and `docker-compose.yaml`: For building and running the Django application in Docker containers.
-    - `simpleGMe`: The Django project settings and core files including URLs, ASGI/WSGI configurations.
-    - `oracles`: A Django app within this project that handles specific backend logic, models, views, and URLs.
+     The Django project settings and core files including URLs, ASGI/WSGI configurations.
+    - `: A Django app within this project that handles specific backend logic, models, views, and URLs.
 
-    simpleGMe Directory: Houses the core settings and configuration for the Django project.
+    - `simpleGMe Directory`: Houses the core settings and configuration for the Django project.
+        - `settings.py`: Contains all configurations related to the project like database configurations, secret keys, and Django apps configuration.
+        - `urls.py`: Manages the URL declarations for the Django project. This is essentially the “table of contents” of your Django-powered site.
+        - `wsgi.py/asgi.py`: Entry-points for WSGI-compatible servers to serve your project.
+        - `templates/simpleGMe`: Includes HTML templates for the main landing page of the application.
+        - `static/simpleGMe/css`: Contains CSS stylesheets that define the look and feel of the project’s landing page.
 
-    settings.py: Contains all configurations related to the project like database configurations, secret keys, and Django apps configuration.
-    urls.py: Manages the URL declarations for the Django project. This is essentially the “table of contents” of your Django-powered site.
-    wsgi.py/asgi.py: Entry-points for WSGI-compatible servers to serve your project.
-    templates/simpleGMe: Includes HTML templates for the main landing page of the application.
-    static/simpleGMe/css: Contains CSS stylesheets that define the look and feel of the project’s landing page.
-
-oracles Directory: A Django app within the project that handles specific backend logic.
-
-    models.py, views.py, forms.py, admin.py: These files define the data models, the business logic, the form representations, and the admin customization, respectively.
-    urls.py: Routes requests to the appropriate view based on the request URL.
-    migrations: Contains schema migrations for evolving the database structure over time without data loss.
-    templates/oracles: Stores HTML files for rendering data views specific to the oracles app functionality.
-    static/oracles/css: Contains CSS stylesheets specific to the oracles app.
-    management/commands: Custom management commands that can be used with Django’s command-line utility for administrative tasks.
-    repository: Includes JSON files defining data templates and architecture specifics for the app.
+    `oracles Directory`: A Django app within the project that handles specific backend logic.
+        - `models.py, views.py, forms.py, admin.py`: These files define the data models, the business logic, the form representations, and the admin customization, respectively.
+        - `urls.py`: Routes requests to the appropriate view based on the request URL.
+        - `migrations`: Contains schema migrations for evolving the database structure over time without data loss.
+        - `templates/oracles`: Stores HTML files for rendering data views specific to the oracles app functionality.
+        - `static/oracles/css`: Contains CSS stylesheets specific to the oracles app.
+        - `management/commands`: Custom management commands that can be used with Django’s command-line utility for administrative tasks.
+        - `repository`: Includes JSON files defining data templates and architecture specifics for the app.
 
 ## Key App Features
 
-- Docker Integration: Simplifies deployment and development environment setup.
+- `Docker Integration`: Simplifies deployment and development environment setup.
 
-- Poetry for Dependency Management: Utilizes Poetry to manage library dependencies, enhancing the security and consistency across developments.
+- `Poetry for Dependency Management`: Utilizes Poetry to manage library dependencies, enhancing the security and consistency across developments.
 
-- [ NEW ] Django CLI for data importing, which adds both "Questions" and "Answers" to the database of available Oracle tables. Use the template .json file to build your data set (you can find it in Project/oracles/repository/standardTemplate. Just copy it into the directory above and apply changes) and import using `python manage.py import_question`
+- [ NEW ] `Django CLI for data importing`: It adds both "Questions" and "Answers" to the database of available Oracle tables. Use the template .json file to build your data set (you can find it in Project/oracles/repository/standardTemplate. Just copy it into the directory above and apply changes) and import using `python manage.py import_question`
 
 **Planned App Features:**
 
@@ -93,7 +91,7 @@ http://localhost:8000
 
 I used a Developer Container in VsCode and I highly recommend you do so too (or simply use Docker directly, as instructed above) to avoid installing any of the necessary dependencies directly on your machine.
 
-*If you use vim or nvim, I'm more than willing to bet you already know how to spin this up without using VsCode so no guides are necessary for you. Also, props.*
+*If you use vim or nvim, I'm more than willing to bet you already know how to spin this up without using VsCode so no guides should be necessary for you. Also, props.*
 
 ## Usage
 
