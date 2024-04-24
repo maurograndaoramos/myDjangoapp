@@ -13,7 +13,8 @@
                 {"answer": "Mazey, segmented, piled", "roll_value": 8}
             ],
         "category": "Architecture",
-        "description": "Most GMs and players aren't equipped with an elaborate architectural vocabulary for describing every feature of a civilization's buildings. To begin, it's easier to just pick a few evocative adjectives to describe the structures and work out from there. The rural village might be described as a mass of squat adobe buildings or a collection of slim, tall wooden structures perched up above flood-prone land. The details of the architecture will usually bend to accommodate the special features of the climate and terrain. For extra complexity, you can roll several times but take only one word from each list to create a new set."
+        "description": "Most GMs and players aren't equipped with an elaborate architectural vocabulary for describing every feature of a civilization's buildings. To begin, it's easier to just pick a few evocative adjectives to describe the structures and work out from there. The rural village might be described as a mass of squat adobe buildings or a collection of slim, tall wooden structures perched up above flood-prone land. The details of the architecture will usually bend to accommodate the special features of the climate and terrain. For extra complexity, you can roll several times but take only one word from each list to create a new set.",
+        "die": "d8"
     },
     {
         "question": "What are the favorite Architectural materials for the building/s?",
@@ -29,7 +30,8 @@
                 {"answer": "Metal or exotic substances", "roll_value": 8}
             ],
         "category": "Architecture",
-        "description": "The poor of every civilization will use whatever materials they have on hand to make their homes, but most cultures have preferences when they have the luxury of choice. Even when brick or stone is available, the nobles of a society might prefer grand wooden manors adorned with elaborate carvings for their seats of power. There's usually some reason behind such choices, whether because the alternate materials are inferior in some way, uncomfortable to live in, lacking in skilled craftsmen, or impractical for the climate. In the Latter Earth, some societies might use salvaged ancient materials that are very strange."
+        "description": "The poor of every civilization will use whatever materials they have on hand to make their homes, but most cultures have preferences when they have the luxury of choice. Even when brick or stone is available, the nobles of a society might prefer grand wooden manors adorned with elaborate carvings for their seats of power. There's usually some reason behind such choices, whether because the alternate materials are inferior in some way, uncomfortable to live in, lacking in skilled craftsmen, or impractical for the climate. In the Latter Earth, some societies might use salvaged ancient materials that are very strange.",
+        "die": "d8"
     },
     {
         "question": "What are the Architectural colour schemes for this building/s?",
@@ -45,7 +47,8 @@
                 {"answer": "Subdued pastels and soft shades", "roll_value": 8}
             ],
         "category": "Architecture",
-        "description": "A rich profusion of colors is a luxury of wealth and cheap dyestuffs. Most societies are obliged to work with the hues that nature gives them cheaply, and sometimes those are restricted. In other cases, certain colors or patterns may have cultural or religious significance, and wearing them is a matter of cultural meaning rather than personal aesthetic tastes. It's a commonplace for certain colors to bear special meaning in a society, either being reserved for certain castes or social roles, or indicative of qualities such as good luck, death, fertility, or good health."
+        "description": "A rich profusion of colors is a luxury of wealth and cheap dyestuffs. Most societies are obliged to work with the hues that nature gives them cheaply, and sometimes those are restricted. In other cases, certain colors or patterns may have cultural or religious significance, and wearing them is a matter of cultural meaning rather than personal aesthetic tastes. It's a commonplace for certain colors to bear special meaning in a society, either being reserved for certain castes or social roles, or indicative of qualities such as good luck, death, fertility, or good health.",
+        "die": "d8"
     },
     {
         "question": "What's the most common Architectural Visual Motifs of the building/s?",
@@ -61,7 +64,8 @@
                 {"answer": "Geometric shapes or patterns", "roll_value": 8}
             ],
         "category": "Architecture",
-        "description": "Whether to give subjects for structural adornment or topics for interior decorations, these visual motifs show up often in the culture. Some of them might just be inheritances from the distant past, with duckweed-pattern posts and turtle-shell carvings added because they've always been added. In other cases, however, these motifs impart significant information about political alliances, religious devotion, or familial ties. The use of certain motifs and sigils might be reserved to certain buildings or people in a society."
+        "description": "Whether to give subjects for structural adornment or topics for interior decorations, these visual motifs show up often in the culture. Some of them might just be inheritances from the distant past, with duckweed-pattern posts and turtle-shell carvings added because they've always been added. In other cases, however, these motifs impart significant information about political alliances, religious devotion, or familial ties. The use of certain motifs and sigils might be reserved to certain buildings or people in a society.",
+        "die": "d8"
     },
     {
         "question": "What are the Architectural adornments for this building/s?",
@@ -77,7 +81,8 @@
                 {"answer": "Plain and unadorned surfaces", "roll_value": 8}
             ],
         "category": "Architecture",
-        "description": "The architecture of the poor is often simple and unadorned out of necessity, but even the most impoverished peasants can often spare a winter evening to carve some good-luck symbol on their walls or fashion a figurine of some protective deity. Intricate carvings and simple color washes often require little more than personal skill to execute, while the grand displays of noble palaces, seats of government, or sacred temples can summon the ingenuity of whole legions of craftsmen. The motifs listed here might be executed in a simple way on humble homes, but grand structures could express them in truly grand style."
+        "description": "The architecture of the poor is often simple and unadorned out of necessity, but even the most impoverished peasants can often spare a winter evening to carve some good-luck symbol on their walls or fashion a figurine of some protective deity. Intricate carvings and simple color washes often require little more than personal skill to execute, while the grand displays of noble palaces, seats of government, or sacred temples can summon the ingenuity of whole legions of craftsmen. The motifs listed here might be executed in a simple way on humble homes, but grand structures could express them in truly grand style.",
+        "die": "d8"
     },
     {
         "question": "What are the favorite Architectural Structure features for the building/s?",
@@ -93,7 +98,8 @@
                 {"answer": "Monuments or statues", "roll_value": 8}
             ],
         "category": "Architecture",
-        "description": "It can be difficult to distinguish one back-country village from another, or flavor one civilization's cities as opposed to their neighbor's towns. These structural features are buildings or constructions that are particularly predominant in the civilization's communities, with almost all of them having at least one example of these features prominent in its design. Private residences may echo this favoritism with smaller edifices scaled for private use and enjoyment, whether that consists of a townhouse's walled back garden or the fortified exterior face of a rural manor house."
+        "description": "It can be difficult to distinguish one back-country village from another, or flavor one civilization's cities as opposed to their neighbor's towns. These structural features are buildings or constructions that are particularly predominant in the civilization's communities, with almost all of them having at least one example of these features prominent in its design. Private residences may echo this favoritism with smaller edifices scaled for private use and enjoyment, whether that consists of a townhouse's walled back garden or the fortified exterior face of a rural manor house.",
+        "die": "d8"
     },
     {
         "question": "What are the design patterns of this settlement",
@@ -109,6 +115,7 @@
                 {"answer": "Stacked vertically or underground", "roll_value": 8}
             ],
         "category": "Architecture",
-        "description": "Some civilizations favor rigorously-designed communities with even blocks of inhabitants or organized rings of progressively-less-important inhabitants radiating out from a central palace. Others just throw up buildings in the nearest open space, forming mazey tangles of narrow streets and dead-end alleyways. A few even base their communities on ritually-significant patterns or mandalas, requiring that all construction fit with the greater divine plan. These design patterns offer suggestions for building out this civilization's communities and the ways in which their streets and buildings could be laid out."
+        "description": "Some civilizations favor rigorously-designed communities with even blocks of inhabitants or organized rings of progressively-less-important inhabitants radiating out from a central palace. Others just throw up buildings in the nearest open space, forming mazey tangles of narrow streets and dead-end alleyways. A few even base their communities on ritually-significant patterns or mandalas, requiring that all construction fit with the greater divine plan. These design patterns offer suggestions for building out this civilization's communities and the ways in which their streets and buildings could be laid out.",
+        "die": "d8"
     }
 ]

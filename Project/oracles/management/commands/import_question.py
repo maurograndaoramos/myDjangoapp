@@ -21,7 +21,9 @@ class Command(BaseCommand):
                     if not existing_question:
                         question = OracleQuestion(
                             question_text=q['question'],
-                            description=q.get('description', '')
+                            description=q.get('description', ''),
+                            category=q.get('category', 'General'),
+                            die=q.get('die', 'd20')
                         )
                         question.save()
                     else:

@@ -4,6 +4,7 @@ class OracleQuestion(models.Model):
     question_text = models.CharField(max_length=200)
     category = models.CharField(max_length=200, default='General')
     description = models.TextField(blank=True)
+    die = models.CharField(max_length=6, default='d20')
 
     def __str__(self) -> str:
         return self.question_text

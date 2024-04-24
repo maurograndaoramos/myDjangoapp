@@ -1,7 +1,7 @@
 <h1>{{ question.question_text }}</h1>
-<ul>
+<ul>Roll a {{ question.die }} or pick a result:
 {% for choice in question.choices.all %}
-    <li>{{ choice.choice_text }}</li>
+<li>{{ choice.roll_value }} - {{ choice.choice_text }}</li>
 {% endfor %}
 </ul>
 <a href="{% url 'oracles:index' %}">Back to index</a>

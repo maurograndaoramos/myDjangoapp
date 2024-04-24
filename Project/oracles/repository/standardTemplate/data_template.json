@@ -13,6 +13,7 @@
                 {"answer": "string", "roll_value": 8}
             ],
         "category": "Architecture",
-        "description": "string"
+        "description": "string",
+        "die": "string"
     }
 ]
